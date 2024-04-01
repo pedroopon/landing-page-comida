@@ -1,0 +1,33 @@
+footer{
+    background-color: #ffe8b4;
+}
+
+#footer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 8% 24px 8%;
+
+
+}
+
+#footer .social_media_buttons i{
+
+    gap: 10px   ;
+
+}
+
+#copyright{
+    color: black;
+}
+
+@media screen and (max-width: 600px) {
+    #footer{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+    }
+    
+}

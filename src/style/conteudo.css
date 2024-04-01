@@ -1,0 +1,189 @@
+.conteudo_principal{
+    display: flex;
+    flex-direction: row;
+    min-height:  calc(100vh - 91px);
+    position: relative;
+}
+
+#cta_conteudo{
+    width: 35% ;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin-top: 5%;
+}
+
+.cta_conteudo_titulo{
+    font-size: 4rem;
+    color: black;
+}
+.cta_conteudo_titulo span{
+    color: #ffbb00;
+}
+
+.cta_conteudo p{
+    font-size: 1.2rem;
+}
+
+.cta_conteudo_btn{
+    display: flex;
+    gap: 24px;
+}
+
+.cta_conteudo_btn a{
+    text-decoration: none;
+    color: black;
+
+}
+
+#cta_conteudo_btn_telefone{
+display: flex;
+flex-direction: row;
+gap: 8px;
+align-items: center;
+background-color: white;
+padding: 8px 14px;
+font-weight: 500;
+box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+border-radius: 12px;
+}
+
+#banner{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+    z-index: 2;
+
+}
+
+#banner img{
+    height: 100%;
+    width: fit-content;
+}
+
+.forma{
+background-color: #ffe8b4;
+width: 52%;
+height: 100%;
+position: absolute;
+border-radius: 40% 30% 0% 20%;
+top: 0;
+right: 0;
+z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1300px){
+    .conteudo_principal{
+        display: flex;
+        flex-direction: row;
+        min-height:  calc(100vh - 91px);
+        position: relative;
+       
+    }
+    
+    #cta_conteudo{
+        width: 100% ;
+        display: flex;
+        flex-direction: column;
+        gap: 28px;
+        margin-top: 5%;
+        
+
+    }
+    
+    .cta_conteudo_titulo{
+        font-size: 4rem;
+        color: black;
+        line-height: 70px;
+        text-align: start;
+
+    }
+    .cta_conteudo_titulo span{
+        color: #ffbb00;
+                height: 100%;
+
+    }
+    
+    .cta_conteudo p{
+        font-size: 1.2rem;
+        text-align: justify;
+
+    }
+    
+    .cta_conteudo_btn{
+        display: flex;
+        gap: 24px;
+        text-align: center;
+        justify-content: center;
+
+
+    }
+    
+    .cta_conteudo_btn a{
+        text-decoration: none;
+        color: black;
+
+    
+    }
+    
+    #cta_conteudo_btn_telefone{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    align-items: center;
+    background-color: white;
+    padding: 8px 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    }
+
+    .social_media_buttons{
+        display: flex;
+        /* justify-content: spce-around; */
+        padding: 0px, 20px, 0px, 20px;;
+        justify-content: space-around;
+    }
+    
+    #banner{
+        display: none;
+        /* align-items: start;
+        justify-content: end;
+        width: 70%;
+        z-index: 2; */
+    
+    }
+    
+    #banner img{
+        display: none;
+
+        /* height: 100%;
+        width: fit-content; */
+    }
+    
+    .forma{
+        display: none;
+
+    /* background-color: #ffe8b4;
+    width: 52%;
+    height: 100%;
+    position: absolute;
+    border-radius: 40% 30% 0% 20%;
+    top: 0;
+    right: 0;
+    z-index: 1; */
+    } 
+}
